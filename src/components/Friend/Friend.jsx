@@ -10,7 +10,7 @@ const Friend = ({ friend }) => {
             Email: {email}<br />
             Phone: {phone} <br />
             Address: {address.city} <br />
-            UserNaeme: <Link to={`/friend/${id}`}> {username}</Link>
+            UserName: <Link to={`/friend/${id}`}> {username}</Link>
         </div>
     );
 };

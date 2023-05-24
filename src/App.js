@@ -26,7 +26,13 @@ function App() {
           },
           element: <Friends />
         },
-        { path: '/friends/:friendId', element: <FriendDetails /> }
+        {
+          path: '/friends/:friendId',
+          loader: async ({ params }) => {
+            return fetch(`https://jsonplaceholder.typicode.com/users/${params.friendId}`)
+          },
+          element: <FriendDetails />
+        }
       ]
     },
 

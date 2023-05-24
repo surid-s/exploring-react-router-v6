@@ -1,9 +1,12 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const FriendDetails = () => {
+    const friend = useLoaderData();
+    console.log(friend)
     return (
         <div>
-            <h2>Friend Details coming soon</h2>
+            <p>Friend Details coming soon</p>
         </div>
     );
 };
