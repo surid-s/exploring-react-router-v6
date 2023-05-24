@@ -1,0 +1,15 @@
+.header a {
+  text-decoration: none;
+  margin: 20px;
+  background-color: #124255;
+  color: #f7f7f7;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.header a:hover {
+  background-color: #d8f070;
+  color: #124255;
+}
