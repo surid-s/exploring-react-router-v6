@@ -27,7 +27,7 @@ function App() {
           element: <Friends />
         },
         {
-          path: '/friends/:friendId',
+          path: '/friend/:friendId',
           loader: async ({ params }) => {
             return fetch(`https://jsonplaceholder.typicode.com/users/${params.friendId}`)
           },

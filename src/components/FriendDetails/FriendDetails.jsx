@@ -6,7 +6,9 @@ const FriendDetails = () => {
     console.log(friend)
     return (
         <div>
-            <p>Friend Details coming soon</p>
+            <p>Friend Details of: {friend.name}</p>
+            <p>Call him/her: {friend.phone}</p>
+            <p> Email: {friend.email}</p>
         </div>
     );
 };
